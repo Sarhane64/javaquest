@@ -1,17 +1,9 @@
 class Notice {
     public static void main(String[] args) {
-        double money = 12.4;
-        double price = 1.2;
-        int candies = 0;
-
-        if (money > 0 && price > 0) {
-            while (money - price >= 0) {
-                candies++;
-                money -= price;
-            }
-        }
-        System.out.println(candies);
+        System.out.println("hello world");
+        System.out.println("C'est " + args[0] + " developeur java");
     }
 }
+
 
 

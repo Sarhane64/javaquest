@@ -1,17 +1,17 @@
 class Notice {
     public static void main(String[] args) {
-        double money = 12.4;
-        double price = 1.2;
-        int candies = 0;
-
-        if (money > 0 && price > 0) {
-            while (money - price >= 0) {
-                candies++;
-                money -= price;
-            }
-        }
-        System.out.println(candies);
+       String title = "Indiana Jones and the Last Crusade";
+       boolean saw = true;
+       int year = 1989;
+       double rating = 8.2;
+       
+       System.out.println("Titre : " + title);
+       System.out.println("Vu : " + saw);
+       System.out.println("Année de sortie : " + year);
+       System.out.println("Note IMDb : " + rating);
     }
 }
+
+
 
 

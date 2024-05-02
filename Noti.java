@@ -2,8 +2,8 @@ class Notice {
     public static void main(String[] args) {
        String title = "Indiana Jones and the Last Crusade";
        boolean saw = true;
-       int year = 1989;
-       double rating = 8.2;
+       byte year = (byte) 1989;
+       float rating = 8.2f;
        
        System.out.println("Titre : " + title);
        System.out.println("Vu : " + saw);
@@ -11,7 +11,6 @@ class Notice {
        System.out.println("Note IMDb : " + rating);
     }
 }
-
 
 
 
